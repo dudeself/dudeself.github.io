@@ -2,11 +2,17 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>我常用的网站集合</title>
+
+<link rel="shortcut icon" type="image/png" href="http://www.pngpix.com/wp-content/uploads/2016/06/favicon.png">
+
+<title>网址分享</title>
 <style type="text/css">
 	body{width: 1200px; margin: 0 auto; font-size: 12px;}
 	
 	.zhanji{z-index: 2; position: absolute; left: 56%;}
+	
+	.url{color: white;}
+	.url:hover{text-decoration: underline;}
 	
 	.banner{
 		width: 1114px;
@@ -19,21 +25,34 @@
 		margin-bottom: 100px;
 		color: white;
 		font-size: 1.2em;
-		font-family: "PingFang SC", "Lantinghei SC", "Microsoft YaHei", "HanHei SC", "Helvetica Neue", "Open Sans", Arial, "Hiragino Sans GB", 微软雅黑, STHeiti, "WenQuanYi Micro Hei", SimSun, sans-serif;
+		font-family: tahoma,"microsoft yahei","\5FAE\8F6F\96C5\9ED1"!important;
+		line-height: normal;
 		letter-spacing: 2px;
 		padding: 12px 43px;	
 	}
 	
 	.gonggao{
-	margin-top: 8px;
-	margin-left: 0;
-	margin-bottom: 24px;
-	color: #DC2E23;
-	padding-top: 0;
-	padding-right: 12px;
-	padding-left: 0;
-	padding-bottom: 0;
-	text-align: right;
+		margin-top: 8px;
+		margin-left: 0;
+		margin-bottom: 24px;
+		color: #DC2E23;
+		padding-top: 0;
+		padding-right: 12px;
+		padding-left: 0;
+		padding-bottom: 0;
+		text-align: right;
+	}
+	
+	.gonggao-1{
+		margin-top: 8px;
+		margin-left: 0;
+		margin-bottom: 24px;
+		color: #999999;
+		padding-top: 0;
+		padding-right: 12px;
+		padding-left: 0;
+		padding-bottom: 0;
+		text-align: right;
 	}
 	
 	a{color: black; text-decoration: none;}
@@ -56,13 +75,26 @@
 	.button{background-color: white; border: 0; color: black; font-family: Arial; font-size: 1.5em; line-height: 24px; }
 	.button:hover{background-color: black; color: white; cursor:pointer;}
 	
+	.img-icon{width: 26px; vertical-align: -7px; margin-right: 6px; border-radius: 24%;}	
+	
 	/*下 常用 *************************************************************************************************** */
-	.img-icon{width: 26px; vertical-align: -7px; margin-right: 6px;}
 	
 	.btn-color{color: black; padding: 10px 9px 10px 9px; font-size:1.2em;}
 	.btn-color:hover{color: red; border: 2px #F39597 solid; box-sizing: border-box;padding: 8px 7px 8px 7px;}
 	
 	.btn-wai-color{width: 139px; overflow: auto; float: left; margin: 4px 0; padding: 9px 5px 9px 80px}
+	
+	/*下 免版权 *************************************************************************************************** */
+
+	
+	.btn-free{color: black; padding: 10px 9px 10px 9px; font-size:1.2em;}
+	.btn-free:hover{color: red; border: 2px #F39597 solid; box-sizing: border-box;padding: 8px 7px 8px 7px;}
+	
+	.btn-wai-free{width: 139px; overflow: auto; float: left; margin: 4px 0; padding: 9px 5px 9px 80px}
+	
+	/*下 抠图素材 *************************************************************************************************** */
+	
+	.rel{background: url(https://s1.ax1x.com/2020/05/06/YAyo0s.png) 1px 0 no-repeat; background-size: 10px;}
 	
 	/*下 adobe *************************************************************************************************** */
 	.installation{float: right; margin-top: 13px;margin-right: 9px;}
@@ -86,13 +118,13 @@
 
 <body>
 
-<img class="zhanji" src="https://hbimg.huabanimg.com/43a24f776a48ffee39bf4e258db62114acae245780f2-XeMCSB_fw658/format/webp" alt="战机">
-<div class="banner">本网页是我自己常用的网站和一些资源分享<br>时间和技术有限<br>网页没能一下做出来<br>网页会持续更新<br><br><font style="font-size: 1.8em">欢迎收藏本站</font></div>
-
+<img class="zhanji" src="https://s1.ax1x.com/2020/05/06/YAfcDO.png" alt="战机">
+<div class="banner"><a class="url" href="https://dudeself.github.io/index.html" title="https://dudeself.github.io/index.html" target=""><font style="font-size: 1.8em;">欢迎收藏本站</font><br>网页持续更新</a></div>
+	
 <!-- 下 常用************************************************************************* -->
 
 <div>
-<span class="title" title="下列安装独立程序">经常用的网页</span>
+<span class="title" title="下列安装独立程序">经常浏览的网站</span>
 <!--<a class="btn-home-a" href="http://adobe.com" title="官网" target="_block"><div class="btn-home"></div></a>-->
 
 </div>
@@ -103,7 +135,7 @@
 	
 <div class="btn-wai-color"><a href="https://www.huaban.com/" title="图片分享-注意图片版权" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-8-2.png" alt="花瓣网"></span>花瓣网</span></a></div>
 
-<div class="btn-wai-color"><a href="https://dribbble.com/" title="国外UI设计分享" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-4-1.png" alt="Dribbble"></span>Dribbble</span></a></div>
+<div class="btn-wai-color"><a href="https://www.behance.net/" title="优秀的设计交流社区" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-14-11.png" alt="Behance"></span>Behance</span></a></div>
 
 <div class="btn-wai-color"><a href="https://unsplash.com/" title="免版权图库" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-3-unsplash.png" alt="Unsplash"></span>Unsplash</span></a></div>
 
@@ -111,70 +143,159 @@
 
 <div class="btn-wai-color"><a href="https://www.w3school.com.cn/" title="前端学习网" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-16-4-1.png" alt="W3school"></span>W3school</span></a></div>
 
+<div class="btn-wai-color"><a href="https://www.runoob.com/" title="前端学习网" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://static.runoob.com/images/favicon.ico" alt="Runoob"></span>前端教程</span></a></div>
+
+<div class="btn-wai-color"><a href="https://developer.mozilla.org/zh-CN/" title="开发者帮助说明书" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://developer.mozilla.org/static/img/favicon144.e7e21ca263ca.png" alt="Runoob"></span>为开发者服务</span></a></div>
+
 <div class="btn-wai-color"><a href="https://www.zcool.com.cn/" title="设计综合社区" target="_blank"><span class="btn-color"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-2-10.png" alt="站酷"></span>站酷</span></a></div>
+
+<div class="btn-wai-color"><a href="https://www.pixiv.net/" title="插画爱好者交流平台-外网" target="_blank"><span class="btn-color"><span><img class="img-icon" src="http://img.xz7.com/up/2018-4/2018425171938.png" alt="Pixiv"></span>Pixiv</span></a></div>
 
 </div>
 
 <div class="gonggao"></div>
 
-<!-- 下 Adobe*********************************************************************** -->
+<!-- 下 图片免版权************************************************************************* -->
+
+<div>
+<span class="title" title="下列安装独立程序">图片免版权</span>
+<!--<a class="btn-home-a" href="http://adobe.com" title="官网" target="_block"><div class="btn-home"></div></a>-->
+
+</div>
+
+<div class="button-alldiv">
+
+<div class="btn-wai-free"><a href="https://unsplash.com/" title="Unsplash-免版权图库" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-3-unsplash.png" alt="Unsplash"></span>摄影素材<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+	
+<div class="btn-wai-free"><a href="https://www.iconfont.cn/" title="IconFont-免费的图标资源分享" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-1-1.png" alt="IconFont"></span>阿里图标库<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+	
+<div class="btn-wai-free"><a href="https://www.hippopx.com/zh" title="基于CC0协议的免版权图库" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.hippopx.com/public/css/favicon.ico" alt="Hippo"></span>热门图库</span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.colorhub.me/" title="个人和商业用途免费-已收录 110,217 张-每天更新" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.colorhub.me/colorhub.png" alt="Colorhub"></span>图库色卡</span></a></div>
+
+<div class="btn-wai-free"><a href="https://pixabay.com/" title="热门免版权图库" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://pixabay.com/apple-touch-icon.png" alt="Pixabay"></span>热门免版权<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.ssyer.com/" title="别样网-内含大量设计素材，大多是用户上传" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.ssyer.com/favicon.ico" alt="ssyer"></span>国内图库</span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.polayoutu.com/collections" title="泼辣开源摄影社区-授权CCO协议" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://www.polayoutu.com/favicon-32x32.png" alt="泼辣有图"></span>泼辣有图</span></a></div>
+
+<div class="btn-wai-free"><a href="https://en.freejpg.com.ar/" title="免费的图库" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://en.freejpg.com.ar/public/img/favicon.ico" alt="Freejpg"></span>Freejpg</span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.pexels.com/zh-cn/" title="图片&影片" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.pexels.com/favicon.ico" alt="Pexel"></span>图片&影片<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.foodiesfeed.com/" title="美食配图与背景" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.foodiesfeed.com/wp-content/themes/foodiesfeed/library/images/favicon/favicon.ico" alt="Pexel"></span>美食图片</span></a></div>
+
+<div class="btn-wai-free"><a href="https://kaboompics.com/" title="免费的-多为生活中的图" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://kaboompics.com/assets/images/favicon.png" alt="Kaboompics"></span>生活为主的图</span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.pakutaso.com/" title="日本网站-没办法中文搜索" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.pakutaso.com/favicon.ico" alt="Kaboompics"></span>日风图片</span></a></div>
+
+<div class="btn-wai-free"><a href="http://thestocks.im/" title="推荐先用前面的网站搜索" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://thestocks.im/static/favicon-32x32.png" alt="Kaboompics"></span>搜索集合</span></a></div>
+
+</div>
+
+<div class="gonggao-1">* 小红点为站长推荐 *</div>
+
+<!-- 下 抠图素材************************************************************************* -->
+
+<div>
+<span class="title" title="下列安装独立程序">抠图素材</span>
+<!--<a class="btn-home-a" href="http://adobe.com" title="官网" target="_block"><div class="btn-home"></div></a>-->
+
+</div>
+
+<div class="button-alldiv">
+
+<div class="btn-wai-free"><a href="https://huaban.com/" title="国内超大图片社区" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://image.uisdc.com/wp-content/uploads/2018/08/sdcnav-8-2.png" alt="花瓣网"></span>花瓣网</span></a></div>
+
+<div class="btn-wai-free"><a href="http://pngimg.com/" title="免抠图-免费" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://pngimg.com/favicon.ico" alt="Pngimg"></span>Pngimg<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.sozai-page.com/" title="日本-无背景食材图片" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://s1.ax1x.com/2020/05/06/YAyFyQ.png" alt="Pngimg"></span>无背景食材<span class="rel">&nbsp;&nbsp;</span></span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.51yuansu.com/" title="每天限5张免费" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://s1.ax1x.com/2020/05/06/YAq3o6.jpg" alt="Pngimg"></span>觅元素</span></a></div>
+
+<div class="btn-wai-free"><a href="https://588ku.com/" title="每天限1张免费" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://js.588ku.com/comp/public/css/iconfont/favicon.ico" alt="Pngimg"></span>千图网</span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.kuaipng.com/" title="每天限10张免费-上传PNG素材还可以获得VIP特权" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://s1.ax1x.com/2020/05/06/YAO82D.jpg" alt="Pngimg"></span>PNG快图网</span></a></div>
+
+<div class="btn-wai-free"><a href="http://3png.com/" title="分类细-各类多-适合PPT" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://img.3png.com/home/img/favicon.png" alt="Pngimg"></span>PNG三元素</span></a></div>
+
+<div class="btn-wai-free"><a href="https://worldvectorlogo.com/" title="矢量图" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://worldvectorlogo.com/static/img/favicon.ico" alt="矢量logo"></span>logo下载</span></a></div>
+
+<div class="btn-wai-free"><a href="https://www.textureking.com/category/all-textures/" title="图片形式的纹理" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://www.textureking.com/favicon.ico" alt="图片形式的纹理"></span>纹理王</span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.easyicon.net/1145572-picture_icon_icon.html" title="网页图标" target="_blank"><span class="btn-free"><span><img class="img-icon" src="https://cdn-img.easyicon.net/favicon.ico" alt="网页图标"></span>ico图标</span></a></div>
+	
+<div class="btn-wai-free"><a href="https://www.stickpng.com/" title="免费PNG下载" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://www.easyicon.net/api/resizeApi.php?id=1145572&size=128" alt="免费PNG下载"></span>国外PNG</span></a></div>
+
+<div class="btn-wai-free"><a href="http://www.pngpix.com/" title="完全免费-都不用登录" target="_blank"><span class="btn-free"><span><img class="img-icon" src="http://www.pngpix.com/wp-content/uploads/2016/06/favicon.png" alt="Pngpix"></span>PNG Pix</span></a></div>
+
+</div>
+
+<div class="gonggao-1">* 小红点为站长推荐 *</div>
+
+<!-- 下 Adobe***************************************************************************************** -->
 
 <div>
 <span class="title" title="下列安装独立程序">Adobe 破解版</span>
 
 <a class="btn-home-a" href="http://adobe.com" title="官网" target="_block"><div class="btn-home"></div></a>
-<a class="installation" href="http://www.baidu.com" target="">安装教程</a>
+<a class="installation" href="https://dudeself.github.io/page-1.html" target="">安装教程</a>
 
 </div>
 
 <div class="button-alldiv">
 	
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM11.267,7.061 L15.476,18.385 L13.208,18.385 L12.164,15.383 L7.432,15.383 L6.356,18.385 L4.153,18.385 L8.395,7.061 L11.267,7.061 ZM11.528,13.588 L9.912,8.970 L9.717,8.970 L8.069,13.588 L11.528,13.588 ZM16.904,6.188 C16.996,6.118 17.116,6.072 17.263,6.050 C17.410,6.028 17.597,6.017 17.826,6.017 C18.054,6.017 18.242,6.028 18.389,6.050 C18.536,6.072 18.655,6.118 18.748,6.188 C18.840,6.259 18.903,6.368 18.935,6.515 C18.968,6.662 18.984,6.860 18.984,7.110 C18.984,7.361 18.968,7.556 18.935,7.698 C18.903,7.839 18.840,7.951 18.748,8.032 C18.655,8.114 18.536,8.165 18.389,8.187 C18.242,8.209 18.054,8.220 17.826,8.220 C17.597,8.220 17.410,8.209 17.263,8.187 C17.116,8.165 16.996,8.114 16.904,8.032 C16.811,7.951 16.749,7.839 16.716,7.698 C16.684,7.556 16.667,7.361 16.667,7.110 C16.667,6.860 16.684,6.662 16.716,6.515 C16.749,6.368 16.811,6.259 16.904,6.188 ZM18.837,18.385 L16.798,18.385 L16.798,9.574 L18.837,9.574 L18.837,18.385 Z" fill-rule="evenodd"></path></svg></span>Illustrator 2020</span></a></div>
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1oleTfEUQ3iqIBsh2ub7oWA" title="提取码：wvyt" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em"><path d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM11.267,7.061 L15.476,18.385 L13.208,18.385 L12.164,15.383 L7.432,15.383 L6.356,18.385 L4.153,18.385 L8.395,7.061 L11.267,7.061 ZM11.528,13.588 L9.912,8.970 L9.717,8.970 L8.069,13.588 L11.528,13.588 ZM16.904,6.188 C16.996,6.118 17.116,6.072 17.263,6.050 C17.410,6.028 17.597,6.017 17.826,6.017 C18.054,6.017 18.242,6.028 18.389,6.050 C18.536,6.072 18.655,6.118 18.748,6.188 C18.840,6.259 18.903,6.368 18.935,6.515 C18.968,6.662 18.984,6.860 18.984,7.110 C18.984,7.361 18.968,7.556 18.935,7.698 C18.903,7.839 18.840,7.951 18.748,8.032 C18.655,8.114 18.536,8.165 18.389,8.187 C18.242,8.209 18.054,8.220 17.826,8.220 C17.597,8.220 17.410,8.209 17.263,8.187 C17.116,8.165 16.996,8.114 16.904,8.032 C16.811,7.951 16.749,7.839 16.716,7.698 C16.684,7.556 16.667,7.361 16.667,7.110 C16.667,6.860 16.684,6.662 16.716,6.515 C16.749,6.368 16.811,6.259 16.904,6.188 ZM18.837,18.385 L16.798,18.385 L16.798,9.574 L18.837,9.574 L18.837,18.385 Z" fill-rule="evenodd"></path></svg></span>Illustrator 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/19Fbgo9e7Et_AsdjQdEh6Yg" title="提取码：tww4" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM21.965,2.035 L2.035,2.035 L2.035,21.965 L21.965,21.965 L21.965,2.035 ZM10.111,7.338 C10.661,7.477 11.102,7.696 11.433,7.995 C11.764,8.294 11.999,8.679 12.138,9.149 C12.277,9.619 12.347,10.180 12.347,10.832 C12.347,11.537 12.267,12.130 12.106,12.611 C11.946,13.092 11.692,13.484 11.345,13.789 C10.998,14.093 10.554,14.312 10.015,14.446 C9.475,14.580 8.826,14.646 8.068,14.646 L6.609,14.646 L6.609,18.252 L4.509,18.252 L4.509,7.129 L8.068,7.129 C8.879,7.129 9.561,7.199 10.111,7.338 ZM6.609,8.828 L6.609,12.947 L7.811,12.947 C8.260,12.947 8.636,12.915 8.941,12.851 C9.246,12.787 9.491,12.675 9.678,12.515 C9.865,12.354 9.999,12.141 10.079,11.874 C10.159,11.607 10.199,11.270 10.199,10.864 C10.199,10.105 10.023,9.576 9.670,9.277 C9.318,8.978 8.698,8.828 7.811,8.828 L6.609,8.828 ZM16.562,16.778 C17.117,16.778 17.529,16.709 17.796,16.570 C18.063,16.431 18.197,16.158 18.197,15.752 C18.197,15.549 18.173,15.381 18.125,15.247 C18.077,15.114 17.988,14.999 17.860,14.903 C17.732,14.807 17.553,14.721 17.323,14.646 C17.093,14.572 16.797,14.491 16.434,14.406 C15.964,14.299 15.579,14.176 15.280,14.037 C14.981,13.898 14.743,13.735 14.567,13.548 C14.390,13.362 14.267,13.137 14.198,12.875 C14.128,12.614 14.094,12.301 14.094,11.938 C14.094,11.158 14.356,10.546 14.879,10.102 C15.403,9.659 16.252,9.437 17.428,9.437 C17.887,9.437 18.333,9.464 18.766,9.517 C19.199,9.571 19.522,9.640 19.735,9.726 L19.639,11.297 C19.404,11.211 19.086,11.136 18.686,11.072 C18.285,11.008 17.887,10.976 17.492,10.976 C16.936,10.976 16.543,11.043 16.314,11.176 C16.084,11.310 15.969,11.558 15.969,11.922 C15.969,12.093 15.990,12.232 16.033,12.338 C16.076,12.445 16.156,12.536 16.274,12.611 C16.391,12.686 16.554,12.755 16.762,12.819 C16.971,12.883 17.246,12.958 17.588,13.044 C18.069,13.161 18.469,13.289 18.790,13.428 C19.110,13.567 19.367,13.735 19.559,13.933 C19.751,14.131 19.888,14.371 19.968,14.654 C20.048,14.938 20.088,15.282 20.088,15.688 C20.088,16.660 19.789,17.347 19.191,17.748 C18.592,18.148 17.748,18.349 16.658,18.349 C16.177,18.349 15.697,18.325 15.216,18.276 C14.735,18.228 14.323,18.162 13.982,18.076 L13.982,16.393 C14.356,16.511 14.780,16.604 15.256,16.674 C15.731,16.743 16.167,16.778 16.562,16.778 Z"/>
 </svg></span>Photoshop 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1sImzrhNnN8j18k1Kkb20Yw" title="提取码：wvzc" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM8.890,6.440 L12.571,18.193 L10.588,18.193 L9.675,15.077 L5.537,15.077 L4.595,18.193 L2.669,18.193 L6.379,6.440 L8.890,6.440 ZM9.118,13.214 L7.706,8.421 L7.534,8.421 L6.093,13.214 L9.118,13.214 ZM14.312,9.861 C14.626,9.500 15.011,9.245 15.468,9.099 C15.924,8.952 16.447,8.878 17.037,8.878 C17.703,8.878 18.245,8.983 18.664,9.192 C19.082,9.401 19.410,9.686 19.648,10.047 C19.886,10.408 20.048,10.826 20.133,11.300 C20.219,11.774 20.262,12.282 20.262,12.824 C20.262,13.050 20.255,13.268 20.241,13.476 C20.226,13.685 20.210,13.869 20.191,14.027 L15.139,14.416 C15.158,15.184 15.339,15.749 15.682,16.110 C16.024,16.471 16.581,16.652 17.351,16.652 C17.579,16.652 17.815,16.635 18.057,16.601 C18.300,16.567 18.533,16.519 18.757,16.457 C18.980,16.395 19.187,16.327 19.377,16.254 C19.567,16.180 19.729,16.104 19.862,16.025 L19.862,17.753 C19.634,17.911 19.263,18.052 18.749,18.176 C18.236,18.300 17.665,18.362 17.037,18.362 C16.447,18.362 15.924,18.289 15.468,18.142 C15.011,17.995 14.626,17.741 14.312,17.380 C13.998,17.019 13.758,16.533 13.591,15.924 C13.425,15.314 13.342,14.546 13.342,13.620 C13.342,12.695 13.425,11.927 13.591,11.317 C13.758,10.707 13.998,10.222 14.312,9.861 ZM18.607,12.604 C18.607,12.322 18.590,12.054 18.557,11.800 C18.523,11.546 18.450,11.323 18.336,11.131 C18.222,10.939 18.062,10.787 17.858,10.674 C17.653,10.561 17.380,10.504 17.037,10.504 C16.676,10.504 16.376,10.555 16.138,10.657 C15.900,10.758 15.710,10.911 15.568,11.114 C15.425,11.317 15.320,11.569 15.254,11.868 C15.187,12.167 15.149,12.514 15.139,12.909 L18.607,12.604 Z"/>
 </svg></span>After Effects 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1tNbDJMEgjuETFZ7bCd0eGw" title="提取码：3rsp" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM10.688,6.660 C11.177,6.807 11.570,7.038 11.865,7.354 C12.160,7.671 12.369,8.077 12.493,8.574 C12.616,9.071 12.678,9.663 12.678,10.352 C12.678,11.097 12.607,11.724 12.464,12.232 C12.321,12.740 12.095,13.155 11.786,13.476 C11.477,13.798 11.082,14.030 10.602,14.171 C10.122,14.312 9.544,14.382 8.868,14.382 L7.570,14.382 L7.570,18.193 L5.701,18.193 L5.701,6.440 L8.868,6.440 C9.591,6.440 10.198,6.513 10.688,6.660 ZM7.570,8.235 L7.570,12.587 L8.640,12.587 C9.040,12.587 9.375,12.553 9.646,12.486 C9.917,12.418 10.136,12.299 10.302,12.130 C10.469,11.961 10.588,11.735 10.659,11.453 C10.730,11.171 10.766,10.815 10.766,10.386 C10.766,9.584 10.609,9.025 10.295,8.709 C9.981,8.393 9.430,8.235 8.640,8.235 L7.570,8.235 ZM16.288,10.691 C16.402,10.318 16.545,10.013 16.716,9.776 C16.887,9.539 17.075,9.353 17.280,9.217 C17.484,9.082 17.698,8.991 17.922,8.946 C18.145,8.901 18.371,8.878 18.600,8.878 L18.757,8.878 L18.699,10.775 L18.514,10.775 C18.267,10.775 18.026,10.804 17.793,10.860 C17.560,10.917 17.344,11.021 17.144,11.173 C16.944,11.326 16.768,11.529 16.616,11.783 C16.464,12.037 16.355,12.362 16.288,12.757 L16.288,18.193 L14.505,18.193 L14.505,9.048 L16.288,9.048 L16.288,10.691 Z"/>
 </svg></span>Premiere Pro 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1MUoLwip6XxpvcvTXdVC3KQ" title="提取码：8tfk" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM8.555,6.440 L12.236,18.193 L10.252,18.193 L9.339,15.077 L5.201,15.077 L4.260,18.193 L2.333,18.193 L6.043,6.440 L8.555,6.440 ZM8.783,13.214 L7.370,8.421 L7.199,8.421 L5.758,13.214 L8.783,13.214 ZM15.204,10.199 C15.422,9.725 15.748,9.387 16.181,9.183 C16.614,8.980 17.096,8.878 17.629,8.878 C18.114,8.878 18.521,8.946 18.849,9.082 C19.177,9.217 19.441,9.415 19.641,9.674 C19.841,9.934 19.984,10.253 20.069,10.631 C20.155,11.010 20.198,11.441 20.198,11.927 L20.198,18.193 L18.414,18.193 L18.414,12.520 C18.414,11.876 18.328,11.402 18.157,11.097 C17.986,10.792 17.629,10.640 17.087,10.640 C16.631,10.640 16.243,10.739 15.924,10.936 C15.605,11.134 15.365,11.520 15.204,12.096 L15.204,18.193 L13.420,18.193 L13.420,9.048 L15.204,9.048 L15.204,10.199 Z"/>
 </svg></span>Animate 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1pLC6rVqOc273ti-3tkFmkQ" title="提取码：jahr" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM7.249,13.383 L7.335,13.383 L9.332,6.440 L12.272,6.440 L12.272,18.193 L10.431,18.193 L10.431,8.607 L10.345,8.607 L8.219,15.822 L6.307,15.822 L4.196,8.607 L4.110,8.607 L4.110,18.193 L2.284,18.193 L2.284,6.440 L5.308,6.440 L7.249,13.383 ZM16.338,10.199 C16.557,9.725 16.883,9.387 17.315,9.183 C17.748,8.980 18.231,8.878 18.764,8.878 C19.249,8.878 19.656,8.946 19.984,9.082 C20.312,9.217 20.576,9.415 20.776,9.674 C20.975,9.934 21.118,10.253 21.204,10.631 C21.289,11.010 21.332,11.441 21.332,11.927 L21.332,18.193 L19.548,18.193 L19.548,12.520 C19.548,11.876 19.463,11.402 19.292,11.097 C19.120,10.792 18.764,10.640 18.222,10.640 C17.765,10.640 17.377,10.739 17.059,10.936 C16.740,11.134 16.500,11.520 16.338,12.096 L16.338,18.193 L14.554,18.193 L14.554,9.048 L16.338,9.048 L16.338,10.199 Z"/>
 </svg></span>Media Encoder 2020</span></a></div>
 
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1IKukvd0m4MtJ25peayQevQ" title="提取码：rphh" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM9.583,6.440 L13.264,18.193 L11.281,18.193 L10.368,15.077 L6.230,15.077 L5.288,18.193 L3.362,18.193 L7.072,6.440 L9.583,6.440 ZM9.811,13.214 L8.399,8.421 L8.228,8.421 L6.786,13.214 L9.811,13.214 ZM16.175,14.721 C16.175,15.037 16.194,15.314 16.232,15.551 C16.270,15.788 16.339,15.983 16.439,16.135 C16.539,16.288 16.675,16.404 16.846,16.482 C17.017,16.561 17.240,16.601 17.516,16.601 C17.944,16.601 18.315,16.505 18.629,16.313 C18.943,16.121 19.176,15.732 19.329,15.144 L19.329,9.048 L21.112,9.048 L21.112,18.193 L19.514,18.193 L19.357,17.024 C19.138,17.521 18.822,17.868 18.408,18.066 C17.994,18.263 17.516,18.362 16.974,18.362 C16.489,18.362 16.082,18.294 15.754,18.159 C15.426,18.023 15.160,17.826 14.955,17.566 C14.751,17.307 14.606,16.988 14.520,16.609 C14.434,16.231 14.392,15.805 14.392,15.331 L14.392,9.048 L16.175,9.048 L16.175,14.721 Z"/>
 </svg></span>Audition 2020</span></a></div>
 	
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1QVkBADhfwoQT2bxhpssEjw" title="提取码：zpy6" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,13.821 L20.984,18.193 L18.758,18.193 L17.274,11.520 L17.188,11.520 L15.690,18.193 L13.450,18.193 L11.367,9.048 L13.250,9.048 L14.591,16.008 L14.677,16.008 L16.218,9.048 L18.258,9.048 L19.828,16.008 L19.914,16.008 L21.269,9.048 L22.000,9.048 L22.000,2.000 L2.000,2.000 ZM9.455,16.957 C9.036,17.408 8.532,17.727 7.942,17.913 C7.352,18.100 6.696,18.193 5.973,18.193 L2.763,18.193 L2.763,6.440 L5.973,6.440 C6.696,6.440 7.352,6.516 7.942,6.668 C8.532,6.821 9.036,7.112 9.455,7.541 C9.873,7.970 10.199,8.568 10.432,9.336 C10.665,10.104 10.782,11.097 10.782,12.316 C10.782,13.457 10.665,14.402 10.432,15.153 C10.199,15.904 9.873,16.505 9.455,16.957 ZM8.656,10.318 C8.522,9.799 8.327,9.389 8.071,9.090 C7.814,8.791 7.502,8.588 7.136,8.480 C6.770,8.373 6.353,8.320 5.887,8.320 L4.632,8.320 L4.632,16.279 L5.887,16.279 C6.363,16.279 6.786,16.217 7.157,16.093 C7.528,15.969 7.840,15.757 8.092,15.458 C8.344,15.159 8.534,14.755 8.663,14.247 C8.791,13.739 8.855,13.095 8.855,12.316 C8.855,11.503 8.789,10.837 8.656,10.318 Z"/>
 </svg></span>Dreamweaver 2020</span></a></div>
 	
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1pLC6rVqOc273ti-3tkFmkQ" title="提取码：jahr" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M-0.000,24.000 L-0.000,-0.000 L24.000,-0.000 L24.000,24.000 L-0.000,24.000 ZM22.000,2.000 L2.000,2.000 L2.000,22.000 L22.000,22.000 L22.000,2.000 ZM7.448,16.245 L12.262,16.245 L12.262,18.193 L5.235,18.193 L5.235,6.440 L7.448,6.440 L7.448,16.245 ZM16.079,10.691 C16.214,10.318 16.383,10.013 16.586,9.776 C16.789,9.539 17.011,9.353 17.253,9.217 C17.495,9.082 17.748,8.991 18.013,8.946 C18.278,8.901 18.545,8.878 18.815,8.878 L19.001,8.878 L18.934,10.775 L18.714,10.775 C18.421,10.775 18.137,10.804 17.861,10.860 C17.585,10.917 17.329,11.021 17.093,11.173 C16.856,11.326 16.648,11.529 16.468,11.783 C16.287,12.037 16.158,12.362 16.079,12.757 L16.079,18.193 L13.968,18.193 L13.968,9.048 L16.079,9.048 L16.079,10.691 Z"/>
 </svg></span>Lightroom Classic 2020</span></a></div>
 	
-<div class="btn-wai"><a href="#" title="提取码：1234" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1MQcLmZgsKZq_mDb-l2Cueg" title="提取码：5dwt" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 
  d="M11.101,-0.002 C12.051,-0.015 12.456,0.159 13.102,0.331 C14.845,3.686 13.439,6.113 12.935,9.666 C14.061,10.916 15.258,14.381 17.269,14.501 C18.808,13.431 24.074,14.418 24.604,15.501 C25.056,16.054 24.882,16.740 24.771,17.501 C24.265,17.665 24.272,17.829 23.770,18.001 C21.944,19.478 16.928,16.222 16.102,15.334 C15.315,15.605 14.374,15.548 13.435,15.834 C12.213,16.206 10.936,16.841 9.601,17.168 C8.393,19.699 5.885,24.002 2.266,24.002 C1.788,23.558 1.351,23.550 1.099,22.836 C0.788,22.363 1.033,21.794 1.099,21.168 C2.208,20.425 3.055,19.172 4.266,18.501 C5.326,17.915 6.674,17.740 7.600,17.001 C9.008,15.306 9.601,12.529 10.434,10.333 C10.669,9.715 11.400,8.875 11.101,7.832 C10.969,7.370 10.434,6.472 10.268,5.999 C9.741,4.498 10.028,2.502 10.101,0.831 C10.455,0.616 10.853,0.326 11.101,-0.002 ZM12.268,0.998 C11.735,0.955 11.736,0.832 11.435,0.998 C10.151,1.960 10.808,5.964 11.601,6.999 C11.601,6.943 11.601,6.888 11.601,6.832 C12.510,5.562 12.493,2.817 12.268,0.998 ZM12.435,10.833 C12.031,12.736 10.895,14.192 10.434,16.001 C10.601,16.001 10.768,16.001 10.934,16.001 C11.797,15.296 14.948,15.270 15.435,14.501 C14.305,13.709 13.499,11.376 12.435,10.833 ZM18.769,15.001 C18.488,15.191 17.953,15.178 17.436,15.167 C17.436,15.223 17.436,15.278 17.436,15.334 C17.491,15.334 17.547,15.334 17.602,15.334 C18.812,16.620 20.948,17.462 22.937,17.001 C22.992,16.557 23.048,16.112 23.104,15.667 C22.027,15.034 20.651,14.979 18.769,15.001 ZM6.600,18.335 C5.170,19.617 2.020,19.955 1.766,22.335 C1.710,22.335 1.655,22.335 1.599,22.335 C1.599,22.391 1.599,22.447 1.599,22.502 C1.655,22.502 1.710,22.502 1.766,22.502 C2.058,22.923 2.072,22.942 2.766,23.002 C3.523,22.354 4.411,21.878 5.100,21.168 C5.854,20.393 6.069,19.171 6.934,18.501 C6.934,18.446 6.934,18.390 6.934,18.335 C6.823,18.335 6.711,18.335 6.600,18.335 Z"/>
-</svg></span>Acrobat DC</span></a></div>
+</svg></span>Acrobat DC 2019</span></a></div>
+
+<div class="btn-wai"><a href="https://pan.baidu.com/s/1IXNDDFlV0z7CoijVn6gGCQ" title="有的人更习惯这个版本 提取码：yfwx" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 24 24" width="1.2em" height="1.2em">
+<path fill-rule="evenodd" 
+ d="M20.000,24.000 L4.000,24.000 C1.791,24.000 -0.000,22.209 -0.000,20.000 L-0.000,4.000 C-0.000,1.791 1.791,-0.000 4.000,-0.000 L20.000,-0.000 C22.209,-0.000 24.000,1.791 24.000,4.000 L24.000,20.000 C24.000,22.209 22.209,24.000 20.000,24.000 ZM21.922,4.078 C21.922,2.973 21.027,2.078 19.922,2.078 L4.078,2.078 C2.973,2.078 2.078,2.973 2.078,4.078 L2.078,19.922 C2.078,21.027 2.973,21.922 4.078,21.922 L19.922,21.922 C21.027,21.922 21.922,21.027 21.922,19.922 L21.922,4.078 ZM17.548,20.688 C17.156,20.936 16.750,20.708 16.360,20.539 C15.518,18.441 16.064,11.733 16.064,8.817 C16.064,7.621 15.818,5.673 16.360,4.959 C16.470,4.830 16.547,4.792 16.657,4.663 C16.855,4.663 17.053,4.663 17.251,4.663 C17.837,5.636 17.696,7.502 17.696,9.114 C17.696,12.329 17.696,15.544 17.696,18.759 C17.745,18.759 17.795,18.759 17.844,18.759 C17.844,18.709 17.844,18.660 17.844,18.610 C18.268,18.195 18.209,17.950 19.031,17.868 C19.183,17.988 19.072,17.921 19.328,18.017 C19.434,18.321 19.475,18.710 19.476,19.204 C19.427,19.204 19.378,19.204 19.328,19.204 C19.101,20.010 18.524,20.613 17.548,20.688 ZM6.864,6.592 C6.864,8.421 6.864,10.252 6.864,12.082 C9.149,12.065 11.960,11.834 13.986,12.230 C13.986,12.329 13.986,12.428 13.986,12.527 C14.117,12.719 14.119,12.893 14.135,13.269 C13.918,13.395 13.709,13.538 13.541,13.714 C11.316,13.714 9.090,13.714 6.864,13.714 C6.892,15.675 7.154,18.478 6.567,19.946 C6.311,20.035 6.100,20.078 5.677,20.094 C5.526,19.975 5.636,20.042 5.380,19.946 C5.380,19.847 5.380,19.748 5.380,19.649 C4.910,18.891 5.232,16.718 5.232,15.643 C5.232,12.199 5.204,8.464 5.084,5.256 C5.488,5.003 5.454,4.880 6.122,4.811 C6.504,4.561 7.431,4.663 8.051,4.663 C9.520,4.662 13.484,4.336 14.283,4.959 C14.528,5.225 14.542,5.332 14.580,5.850 C14.444,5.988 14.382,6.110 14.283,6.295 C11.810,6.394 9.337,6.493 6.864,6.592 Z"/>
+</svg></span>Flash CS6</span></a></div>
 	
 <div class="btn-wai"><a href="https://creativecloud.adobe.com/apps/download/creative-cloud?promoid=KSPDX" title="官方下载" target="_blank"><span class="btn"><span><svg fill="currentColor" viewBox="0 0 33 24" width="1.2em" height="1.2em">
 <path fill-rule="evenodd" 

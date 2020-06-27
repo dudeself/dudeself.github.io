@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adobe app</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html,
+        body {
+            background: #0F1A34;
+        }
+
+        #aa {
+            width: 1048px;
+            height: 306px;
+            margin: 50px auto;
+            position: relative;
+            border-radius: 12px;
+        }
+        #aa:nth-child(1) {
+            background: linear-gradient(106.25deg, #4071ED 0.7%, #7115CD 98.73%);
+            box-shadow: 0px 18px 30px rgba(0, 10, 255, 0.6);
+        }
+        #aa:nth-child(2) {
+            background: linear-gradient(284.81deg, #F22929 1.21%, #FFBD13 98.73%);
+            box-shadow: 0px 18px 30px rgba(255, 46, 0, 0.6);
+        }
+
+        #aa img {
+            position: absolute;
+            top: 80px;
+            left: 96px;
+        }
+
+        #aa #line1 {
+            position: absolute;
+            width: 1px;
+            height: 194px;
+            background: white;
+            top: 56px;
+            left: 330px;
+        }
+
+        #btn1 {
+            width: 532px;
+            position: absolute;
+            top: 38px;
+            right: 80px;
+        }
+
+        #on {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+        }
+
+        #on:nth-child(1) { top: 0; left: 0; }
+        #on:nth-child(2) { top: 0; left: 144px; }
+        #on:nth-child(3) { top: 0; left: 288px; }
+        #on:nth-child(4) { top: 0; left: 432px; }
+        #on:nth-child(5) { top: 133px; left: 0; }
+        #on:nth-child(6) { top: 133px; left: 144px; }
+        #on:nth-child(7) { top: 133px; left: 288px; }
+        #on:nth-child(8) { top: 133px; left: 432px; }
+
+        #cc {
+            width: 100px;
+            height: 100px;
+            mix-blend-mode: overlay;
+            background-color: white;
+            opacity: 0;
+            border-radius: 8px;
+            transition: opacity .1s;
+        }
+        
+        #on:hover #cc {
+            opacity: .35;
+        }
+
+        #on img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 18px;
+        }
+        /* 标签的CSS */
+
+        #tag1 {
+            width: fit-content;
+            margin: auto;
+        }
+
+        #tag1 ul { list-style: none;}
+
+        #tag1 ul li {
+            width: fit-content;
+            padding: 6px 10px;
+            background-color: #1f3467;
+            font-size: 1em;
+            border-radius: 4px;
+            float: left;
+            margin: 0 10px;
+            color: white;
+        }
+
+        #tag1 a {
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            height: 100%;
+        }
+        /* 页脚foot */
+        #foot {
+            margin: 100px auto 0 auto;
+            clear: both;
+            font-size: 0.5em;
+            color: #aaaaaa;
+            width: fit-content;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="aa">
+        <img src="https://s1.ax1x.com/2020/06/27/Nyg2q0.png" alt="adobe 2020">
+        <div id="line1"></div>
+        <div id="btn1">
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1cEb7hPkbqQA-KoVtWpfYjw">
+                    <img src="https://s1.ax1x.com/2020/06/27/NygoRJ.png" alt="PS图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1hxOXKkr5nkTVkLXmkPOFxg">
+                    <img src="https://s1.ax1x.com/2020/06/27/NyghIU.png" alt="AI图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1mAdnJbGrBQIUn3kR-hzL4w">
+                    <img src="https://s1.ax1x.com/2020/06/27/NygfaT.png" alt="DW图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1cYdxmMR96yQPXVbt8JRjUw">
+                    <img src="https://s1.ax1x.com/2020/06/27/Nyg5iF.png" alt="LR图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1dLJ0YafVPHEftcwVgu7I3A">
+                    <img src="https://s1.ax1x.com/2020/06/27/Nyggrq.png" alt="AE图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1N59xvf321ym60aB3N1mU-Q">
+                    <img src="https://s1.ax1x.com/2020/06/27/NygTz9.png" alt="PR图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1W0Y27LtIm6B9ZCV7HJvjxA">
+                    <img src="https://s1.ax1x.com/2020/06/27/Nygyxs.png" alt="AU图标" width="64px" height="64px">
+                </a>
+            </div>
+            <div id="on">
+                <div id="cc"></div>
+                <a target="_blank" href="https://pan.baidu.com/s/1pR_U6QhT5aV5AUphlNC1rg">
+                    <img src="https://s1.ax1x.com/2020/06/27/NygcMn.png" alt="AN图标" width="64px" height="64px">
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 标签 -->
+    <div id="tag1">
+        <ul>
+            <li><a href="http://adobe.com/">Adobe官网</a>&nbsp;
+                <svg style="vertical-align: -2px;" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M18 3.41421V9H20V0H11V2L16.5858 2L7.29289 11.2929L8.70711 12.7071L18 3.41421Z"/>
+                    <path d="M0 2H9V4H2V18H16V11H18V20H0V2Z"/>
+                </svg>
+            </li>
+            <li><a href="https://dudeself.github.io/page-1.html">安装教程</a>&nbsp;
+                <svg style="vertical-align: -2px;" width="16" height="16" viewBox="0 0 20 20" fill="currentColor">
+                    <path d="M18 3.41421V9H20V0H11V2L16.5858 2L7.29289 11.2929L8.70711 12.7071L18 3.41421Z"/>
+                    <path d="M0 2H9V4H2V18H16V11H18V20H0V2Z"/>
+                </svg>
+            </li>
+            <li><a href="" title="统一：A123">提取码 悬停获取</a></li>
+            <li>持续更新中…</li>
+        </ul>
+    </div>
+    <div id="foot"><font>软件来源网络，公供学习研究，请铁非法使用</font>&nbsp;&nbsp;&nbsp;&nbsp;&ndash;&nbsp;<font>联系方式：mike-rosoft@foxmail.com</font>&nbsp;&ndash;</div>
+</body>
+
+</html>

@@ -3,81 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Download-URL</title>
+    <title>download url</title>
     <style>
-        h4 {
-            margin: 20px auto;
-            width: fit-content;
-            background-color: rgb(255, 158, 158);
-            color: white;
-            padding: 5px 10px;
+        * {
+            margin: 0;
+            padding: 0;
         }
 
-        table { margin: auto;}
+        html,body {
+            background-color: #1e1e1e;
+        }
+        #d {
+            font-family: 'Microsoft Yahei', '微软雅黑', Arial, Helvetica, sans-serif;
+            width: 260px;
+            height: 210px;
+            padding-top: 50px;
+            background-color: #252526;
+            color: #858385;
+            border: 1px solid #333333;
+            float: left;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s ease-out;
+        }
 
-        tr td:nth-child(1) { text-align: right;}
-        tr td:nth-child(2) { text-align: left; max-width: 300px; overflow: hidden; text-overflow:ellipsis; white-space: nowrap;}
+        #d::after {
+            content: attr(infont);
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            font-size: 1.4em;
+            width: 100%;
+            height: 60px;
+        }
 
-        a::after { content: attr(href);}
-        a { color: rgb(121, 3, 121);}
-        a:hover { color: rgb(223, 14, 49);}
+        #d:hover {
+            background-color: #333333;
+            color: white;
+        }
+
     </style>
 </head>
 <body>
-    <h4>Download-URL(Free)</h4>
-    <table border="0" cellspacing="10">
-        <tr>
-            <td>GIF录制 - LICEcap</td>
-            <td><a href="https://www.cockos.com/licecap/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Quicker</td>
-            <td><a href="https://www.getquicker.net/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>配合Quiker - IrfanView</td>
-            <td><a href="https://www.irfanview.com/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>MD文本编辑器 - Typora</td>
-            <td><a href="https://www.typora.io/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>截图贴图 - Snipaste</td>
-            <td><a href="https://www.snipaste.com/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Mac截图 - ishot</td>
-            <td><a href="https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E8%B4%B4%E5%9B%BE-%E5%BD%95%E5%B1%8F%E5%B7%A5%E5%85%B7/id1485844094?mt=12" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Office Toll Plus</td>
-            <td><a href="https://otp.landian.vip/zh-cn/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Wox</td>
-            <td><a href="http://www.wox.one/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Search Everything</td>
-            <td><a href="https://www.voidtools.com/zh-cn/" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>QuickLook</td>
-            <td><a href="https://github.com/QL-Win/QuickLook" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td>Geek Uninstaller 卸载工具</td>
-            <td><a href="https://geekuninstaller.com/download" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td><mark>小丸压制Bililbili定制版</mark></td>
-            <td><a href="https://dl.hdslb.com/video-press/BiliBiliEncoder.zip" target="_blank"></a></td>
-        </tr>
-        <tr>
-            <td><mark>小丸压制工具原版</mark></td>
-            <td><a href="https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip" target="_blank"></a></td>
-        </tr>
-    </table>
+    <a href="https://code.visualstudio.com/Download" id="d" target="_blank" infont="VS Code">
+        <img src="https://oscimg.oschina.net/oscnet/e5638db8d01b01cb6339db50ed5c0ef4032.jpg" alt="图标" width="100px">
+    </a>
+    <a href="https://www.cockos.com/licecap/" id="d" target="_blank" infont="GIF 录制">
+        <img src="https://static.macupdate.com/products/49461/m/licecap-logo.webp?v=1588942432" alt="图标" width="100px" style="border-radius: 8px;">
+    </a>
+    <a href="https://www.getquicker.net/" id="d" target="_blank" infont="Quicker">
+        <img src="https://files.getquicker.net/_sitefiles/quicker_round_128.png" alt="图标" width="100px">
+    </a>
+    <a href="https://www.irfanview.com/" id="d" target="_blank" infont="IrfanView">
+        <img src="https://icons.iconarchive.com/icons/dakirby309/simply-styled/256/IrfanView-icon.png" alt="图标" width="100px">
+    </a>
+    <a href="https://dm.weishi.360.cn/home.html?from=homepage" id="d" target="_blank" infont="360驱动">
+        <img src="https://p1.ssl.qhimg.com/t01142a5003c283acb5.png" alt="图标" width="100px">
+    </a>
+    <a href="http://yasuo.360.cn/" id="d" target="_blank" infont="360压缩">
+        <img src="https://p5.ssl.qhimg.com/t018cd3d0fc6cd1793f.png" alt="图标" width="100px">
+    </a>
+    <a href="https://www.typora.io/" id="d" target="_blank" infont="MD文本编辑器">
+        <img src="https://pic2.orsoon.com/2017/0405/20170405035531261.png" alt="图标" width="100px">
+    </a>
+    <a href="https://www.snipaste.com/" id="d" target="_blank" infont="Snipaste 截图">
+        <img src="https://www.snipaste.com/img/logo.svg" alt="图标" width="100px">
+    </a>
+    <a href="https://apps.apple.com/cn/app/ishot-%E6%88%AA%E5%9B%BE-%E9%95%BF%E6%88%AA%E5%9B%BE-%E8%B4%B4%E5%9B%BE-%E5%BD%95%E5%B1%8F%E5%B7%A5%E5%85%B7/id1485844094?mt=12" id="d" target="_blank" infont="iShot Mac 截图">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple123/v4/8f/fd/41/8ffd412e-ebbd-a7c5-f1ed-9d6ec30a9f3f/AppIcon-0-85-220-0-0-0-0-4-0-0-0-2x-sRGB-0-0-0.png/230x0w.png" alt="图标" width="100px">
+    </a>
+    <a href="https://otp.landian.vip/zh-cn/" id="d" target="_blank" infont="Office工具">
+        <img src="https://static.cnbetacdn.com/topics/234d1d5ec9fdc21.png" alt="图标" width="100px">
+    </a>
+    <a href="http://www.wox.one/" id="d" target="_blank" infont="Wox">
+        <img src="https://avatars1.githubusercontent.com/u/15628601?s=400&v=4" alt="图标" width="100px">
+    </a>
+    <a href="https://www.voidtools.com/zh-cn/" id="d" target="_blank" infont="Everything">
+        <img src="https://www.voidtools.com/Everything.ico" alt="图标" width="100px">
+    </a>
+    <a href="https://www.microsoft.com/zh-cn/p/quicklook/9nv4bs3l1h4s?activetab=pivot:overviewtab" id="d" target="_blank" infont="QuickLook">
+        <img src="https://user-images.githubusercontent.com/1687847/82130498-8c3eac80-97d4-11ea-9e88-372ab9c50295.png" alt="图标" width="100px">
+    </a>
+    <a href="https://geekuninstaller.com/download" id="d" target="_blank" infont="Geek 卸载">
+        <img src="https://image.newasp.net/attachment/soft/2019/0111/161754_38247754.png" alt="图标" width="100px">
+    </a>
+    <a href="https://dl.hdslb.com/video-press/xiaowantoolsrev194.zip" id="d" target="_blank" infont="小丸工具（zip文件）">
+        <img src="https://www.xiazaiba.com/uploadfiles/ico/2016/1220/2016122016265425449.png" alt="图标" width="100px">
+    </a>
+    <a href="http://pan.baidu.com/download" id="d" target="_blank" infont="百度云">
+        <img src="https://pic2.orsoon.com/2017/0719/20170719015631510.png" alt="图标" width="100px">
+    </a>
+    <a href="https://www.google.com/intl/zh-CN/chrome/" id="d" target="_blank" infont="Chrome">
+        <img src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/b2e6d43a-96bf-11e6-a674-00163ed833e7/965337810/chrome-Google_Chrome_logo.png" alt="图标" width="100px">
+    </a>
+    <a href="https://im.qq.com/" id="d" target="_blank" infont="QQ">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/fd/3e/e1/fd3ee13d-0dd2-d5c3-f371-6dbea45e9658/AppIcon-1-1x_U007emarketing-0-7-0-0-85-220.png/434x0w.png" alt="图标" width="100px" style="border-radius: 18px;">
+    </a>
+    <a href="https://weixin.qq.com/" id="d" target="_blank" infont="WeChat">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple113/v4/e3/58/41/e3584159-f8b1-59ec-b1d8-4c4cbeb39ccd/AppIcon-0-0-1x_U007emarketing-0-0-0-4-0-0-sRGB-0-0-0-GLES2_U002c0-512MB-85-220-0-0.png/460x0w.png" alt="图标" width="100px" style="border-radius: 18px;">
+    </a>
+    <a href="https://tim.qq.com/index.html" id="d" target="_blank" infont="TIM">
+        <img src="https://is2-ssl.mzstatic.com/image/thumb/Purple123/v4/fe/9c/29/fe9c2965-046e-cc09-c5d9-2de7f2bb683a/AppIcon-1-0-0-1x_U007emarketing-0-0-0-4-0-0-85-220.png/460x0w.png" alt="图标" width="100px" style="border-radius: 18px;">
+    </a>
+    <a href="https://b.qq.com/download/hrtxpc.html" id="d" target="_blank" infont="企业QQ">
+        <img src="https://pic.17qq.com/uploads/shqhtcrrrx.jpeg" alt="图标" width="100px" style="border-radius: 18px;">
+    </a>
+    <a href="https://cts.alibaba.com/product/qianniu.htm#work_floor4" id="d" target="_blank" infont="千牛">
+        <img src="https://pic2.mac69.com/ico/201901/21145046_5a3d4d2d3b.png" alt="图标" width="100px">
+    </a>
+    <a href="https://ow.blizzard.cn/home" id="d" target="_blank" infont="守望先锋">
+        <img src="https://vignette.wikia.nocookie.net/overwatch/images/d/df/Overwatchemblem_white.png/revision/latest?cb=20160605100938&path-prefix=zh" alt="图标" width="100px">
+    </a>
+    <a href="https://www.wps.cn/" id="d" target="_blank" infont="WPS">
+        <img src="https://img4.orsoon.com/ico/201905/05095417_06727ee238.png" alt="图标" width="100px">
+    </a>
+    <a href="https://cidian.youdao.com/multi.html" id="d" target="_blank" infont="有道翻译">
+        <img src="https://is4-ssl.mzstatic.com/image/thumb/Purple113/v4/02/88/b9/0288b963-5c0b-80a4-6b02-2af0b877beea/AppIcon-0-85-220-4-2x.png/246x0w.png" alt="图标" width="100px">
+    </a>
+    <a href="https://music.163.com/#/download" id="d" target="_blank" infont="网易云音乐">
+        <img src="https://android-artworks.25pp.com/fs08/2020/04/23/6/106_7e4e187aeba3b55b2c9b891468650405_con.png" alt="图标" width="100px">
+    </a>
 </body>
 </html>
